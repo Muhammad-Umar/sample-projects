@@ -105,6 +105,7 @@ header h1{
 }
 .recent-project .recent-project__text .project-technologies{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 12px;
 }
 .recent-project .recent-project__text .project-technologies span{
@@ -113,6 +114,7 @@ header h1{
     padding: 4px 7px;
     font-size: .9em;
     margin-right: 6px;
+    margin-bottom: 6px;
     color: #617d98;
     border-radius: 4px;
 }

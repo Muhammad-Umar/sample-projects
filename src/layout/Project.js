@@ -14,10 +14,18 @@ const Project = (props) => {
                 <h3>{data.title}</h3>
                 <p>{data.description}</p>
                 <div className="project-technologies">
-                    <span className="">{data.technologies}</span>
+                    {
+                        data.technologies.split(",").map((data, index) => {
+                            return <span>{data}</span>
+                        })
+                    }
                 </div>
                 <div className="actions">
-                    <a className="link" href={data.link} rel="noreferrer" target="_blank">Link</a>
+                    {
+                        (data.link === "#") 
+                            ? ""
+                            : <a className="link" href={data.link} rel="noreferrer" target="_blank">Link</a>
+                    }
                 </div>
             </div>
         </div>    
