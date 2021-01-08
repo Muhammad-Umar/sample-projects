@@ -143,7 +143,7 @@ header h1{
     
     .recent-project .recent-project__image{
         position: unset;
-        height: auto;
+        height: 100%;
         margin: auto;
         width: 100%;
     }
