@@ -146,6 +146,7 @@ header h1{
         height: 100%;
         margin: auto;
         width: 100%;
+        display: block;
     }
     .recent-project .recent-project__image .background-overlay{
         display: none;
